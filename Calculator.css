@@ -1,0 +1,65 @@
+body {
+  background-color: #cde1ae;
+}
+
+.calculator {
+  width: 400px;
+  margin: auto;
+  background-color: slategray;
+  box-shadow: 4px 4px 8px 3px #888888;
+  border-radius: 10px;
+  margin-top: 20vh;
+}
+
+h3 {
+  padding-left: 10px;
+  height: 60px;
+  padding-top: 10px;
+  margin: 0px;
+  background-color: white;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 10px 10px 0px 0px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.button {
+  padding: 15px 10px;
+  width: 100px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-color: white;
+  background-color: white;
+}
+.button:hover {
+  background-color: beige;
+}
+.row1 {
+  display: table;
+}
+.row2 {
+  display: table;
+}
+.row3 {
+  display: table;
+}
+.row4 {
+  display: table;
+}
+
+.arith {
+  background-color: rgb(238, 238, 98);
+}
+
+.func {
+  background-color: rgb(243, 122, 122);
+}
+
+#bracket {
+  background-color: rgb(105, 105, 204);
+}
+
+.enter {
+  background-color: rgb(186, 230, 106);
+}

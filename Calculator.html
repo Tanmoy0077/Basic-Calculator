@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Calculator.css" />
+    <script src="Calculator.js"></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <form action="" method="get">
+        <h3 id="display">0</h3>
+        <div class="row1">
+          <button
+            type="submit"
+            class="button func"
+            id="CE"
+            onclick="clearDisplay()"
+          >
+            CE
+          </button>
+          <button
+            type="submit"
+            class="button func"
+            id="del"
+            onclick="delete1()"
+          >
+            &lt
+          </button>
+          <button type="submit" class="button" id="bracket" onclick="brac()">
+            ()
+          </button>
+          <button
+            type="submit"
+            class="button arith"
+            id="p"
+            onclick="math(p)"
+            value="p"
+          >
+            +
+          </button>
+        </div>
+
+        <div class="row2">
+          <button type="submit" class="button" id="7" onclick="dispVal(7)">
+            7
+          </button>
+          <button type="submit" class="button" id="8" onclick="dispVal(8)">
+            8
+          </button>
+          <button type="submit" class="button" id="9" onclick="dispVal(9)">
+            9
+          </button>
+          <button
+            type="submit"
+            class="button arith"
+            id="s"
+            onclick="math(s)"
+            value="s"
+          >
+            -
+          </button>
+        </div>
+
+        <div class="row3">
+          <button type="submit" class="button" id="4" onclick="dispVal(4)">
+            4
+          </button>
+          <button type="submit" class="button" id="5" onclick="dispVal(5)">
+            5
+          </button>
+          <button type="submit" class="button" id="6" onclick="dispVal(6)">
+            6
+          </button>
+          <button
+            type="submit"
+            class="button arith"
+            id="m"
+            onclick="math(m)"
+            value="m"
+          >
+            *
+          </button>
+        </div>
+        <div class="row4">
+          <button type="submit" class="button" id="1" onclick="dispVal(1)">
+            1
+          </button>
+          <button type="submit" class="button" id="2" onclick="dispVal(2)">
+            2
+          </button>
+          <button type="submit" class="button" id="3" onclick="dispVal(3)">
+            3
+          </button>
+          <button
+            type="submit"
+            class="button arith"
+            id="d"
+            onclick="math(d)"
+            value="d"
+          >
+            /
+          </button>
+          <button type="submit" class="button" id="zero" onclick="dispVal(0)">
+            0
+          </button>
+          <button type="submit" class="button" id="zero2" onclick="add00()">
+            00
+          </button>
+          <button type="submit" class="button" id="dec" onclick="dot()">
+            .
+          </button>
+          <button
+            type="submit"
+            class="button enter"
+            id="enter"
+            onclick="getResult()"
+          >
+            =
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
